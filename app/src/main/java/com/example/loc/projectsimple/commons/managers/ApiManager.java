@@ -7,6 +7,8 @@ import android.net.NetworkInfo;
 import com.example.loc.projectsimple.commons.ApiService;
 import com.example.loc.projectsimple.models.Number;
 
+import org.androidannotations.annotations.EBean;
+
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
@@ -19,6 +21,7 @@ import rx.schedulers.Schedulers;
  * Created by LOC on 8/24/2017.
  */
 
+@EBean
 public class ApiManager {
     private Retrofit retrofit;
     private ApiService service;

@@ -63,4 +63,8 @@ dependencies {
     compile 'com.massivedisaster:activity-fragment-manager:0.4.1'
     //endless recycler view yes your all
     compile 'com.jude:easyrecyclerview:4.4.0'
+
+    //flow layout
+    compile 'com.mxn.soul:flowingdrawer-core:2.0.0'
+    compile 'com.nineoldandroids:library:2.4.0'
 }
